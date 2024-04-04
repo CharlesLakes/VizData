@@ -3,6 +3,7 @@ import plotly.express as px
 import numpy as np
 import random
 
+# Link: https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
 file_name = "books.csv"
 df = pd.read_csv(file_name)
 counts_rew = {}
